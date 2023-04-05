@@ -138,4 +138,4 @@ INSERT INTO SpotifyClone.users (user_id, user_name, user_age, plan_id, plan_data
 	(6, 6),
 	(6, 7),
 	(3, 9),
-	(2, 10)
+	(2, 10);
