@@ -96,14 +96,14 @@ INSERT INTO SpotifyClone.users (user_id, user_name, user_age, plan_id, plan_data
       INSERT INTO SpotifyClone.songs (song_id, song_name, song_duration, album_id) VALUES
 	(1, 'BREAK MY SOUL', 279, 1),
 	(2, "VIRGO'S GROOVE", 369, 1),
-	(3, 'Feeling Good', 116, 8),
-	(4, 'O Medo de Amar é o Medo de Ser Livre', 203, 5),
-	(5, 'Samba em Paris', 152, 6),
-	(6, 'Under Pressure', 105, 3),
-	(7, "Don't Stop Me Now", 207, 2),
-	(8, "The Bard's Song", 267, 7),
-	(9, 'ALIEN SUPERSTAR', 244, 1),
-	(10, 'Como Nossos Pais', 100, 4);
+	(3, 'Feeling Good', 100, 8),
+	(4, 'O Medo de Amar é o Medo de Ser Livre', 207, 5),
+	(5, 'Samba em Paris', 267, 6),
+	(6, 'Under Pressure', 152, 3),
+	(7, "Don't Stop Me Now", 203, 2),
+	(8, "The Bard's Song", 244, 7),
+	(9, 'ALIEN SUPERSTAR', 116, 1),
+	(10, 'Como Nossos Pais', 105, 4);
     
     INSERT INTO SpotifyClone.playlists (user_id, song_id, reproduction_date) VALUES
 	(1, 5, '2022-02-28 10:45:55'),
