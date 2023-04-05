@@ -61,7 +61,7 @@ CREATE TABLE SpotifyClone.followers (
 	(1, 'gratuito', 0),
 	(2, 'familiar', 7.99),
 	(3, 'universitario', 5.99),
-	(4, 'pessoal', 6.99);
+	(4, 'pessoal', 6.99);	
 
 INSERT INTO SpotifyClone.users (user_id, user_name, user_age, plan_id, plan_data) VALUES
 	('1', 'Barbara Liskov', '82', '1', '2019-10-20'),
