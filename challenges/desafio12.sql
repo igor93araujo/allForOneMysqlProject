@@ -10,5 +10,5 @@ FROM SpotifyClone.artists
 INNER JOIN SpotifyClone.albums ON artists.artist_id = albums.artist_id
 INNER JOIN SpotifyClone.songs ON albums.album_id = songs.album_id
 LEFT JOIN SpotifyClone.favorite_songs ON songs.song_id = favorite_songs.song_id
-GROUP BY artists.artist_name
-ORDER BY COUNT(favorite_songs.song_id) DESC, artists.artist_name ASC;
+GROUP BY artista
+ORDER BY COUNT(favorite_songs.song_id) DESC, artista ASC;
